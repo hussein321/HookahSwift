@@ -7,12 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E25EA2FF26134ECB00C26EC8 /* HookahSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27AB3BD2613480600E3823E /* HookahSwift.framework */; };
+		E25EA30026134ECB00C26EC8 /* HookahSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E27AB3BD2613480600E3823E /* HookahSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E27AB3C72613480600E3823E /* HookahSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27AB3BD2613480600E3823E /* HookahSwift.framework */; };
 		E27AB3CC2613480600E3823E /* HookahSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27AB3CB2613480600E3823E /* HookahSwiftTests.swift */; };
 		E27AB3CE2613480600E3823E /* HookahSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = E27AB3C02613480600E3823E /* HookahSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E27AB3E02613492800E3823E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27AB3DF2613492800E3823E /* AppDelegate.swift */; };
+		E27AB3E22613492800E3823E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27AB3E12613492800E3823E /* SceneDelegate.swift */; };
+		E27AB3E42613492800E3823E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27AB3E32613492800E3823E /* ViewController.swift */; };
+		E27AB3E72613492800E3823E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27AB3E52613492800E3823E /* Main.storyboard */; };
+		E27AB3E92613492900E3823E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27AB3E82613492900E3823E /* Assets.xcassets */; };
+		E27AB3EC2613492900E3823E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27AB3EA2613492900E3823E /* LaunchScreen.storyboard */; };
+		E27AB3F72613492900E3823E /* HookahSwiftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27AB3F62613492900E3823E /* HookahSwiftExampleTests.swift */; };
+		E27AB4022613492900E3823E /* HookahSwiftExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27AB4012613492900E3823E /* HookahSwiftExampleUITests.swift */; };
+		E27AB42026134B3100E3823E /* HookahSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27AB41E26134B3100E3823E /* HookahSwift.swift */; };
+		E27AB42126134B3100E3823E /* HookahSwift.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27AB41F26134B3100E3823E /* HookahSwift.xib */; };
+		E27AB42A26134C4700E3823E /* hookah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E27AB42926134C4700E3823E /* hookah.mp4 */; };
+		E27AB42B26134C4700E3823E /* hookah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E27AB42926134C4700E3823E /* hookah.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E25EA30126134ECB00C26EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E27AB3B42613480600E3823E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E27AB3BC2613480600E3823E;
+			remoteInfo = HookahSwift;
+		};
 		E27AB3C82613480600E3823E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E27AB3B42613480600E3823E /* Project object */;
@@ -20,7 +41,35 @@
 			remoteGlobalIDString = E27AB3BC2613480600E3823E;
 			remoteInfo = HookahSwift;
 		};
+		E27AB3F32613492900E3823E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E27AB3B42613480600E3823E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E27AB3DC2613492800E3823E;
+			remoteInfo = HookahSwiftExample;
+		};
+		E27AB3FE2613492900E3823E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E27AB3B42613480600E3823E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E27AB3DC2613492800E3823E;
+			remoteInfo = HookahSwiftExample;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E25EA30326134ECB00C26EC8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E25EA30026134ECB00C26EC8 /* HookahSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E27AB3BD2613480600E3823E /* HookahSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HookahSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +78,23 @@
 		E27AB3C62613480600E3823E /* HookahSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HookahSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27AB3CB2613480600E3823E /* HookahSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HookahSwiftTests.swift; sourceTree = "<group>"; };
 		E27AB3CD2613480600E3823E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27AB3DD2613492800E3823E /* HookahSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HookahSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27AB3DF2613492800E3823E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E27AB3E12613492800E3823E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E27AB3E32613492800E3823E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E27AB3E62613492800E3823E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E27AB3E82613492900E3823E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E27AB3EB2613492900E3823E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E27AB3ED2613492900E3823E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27AB3F22613492900E3823E /* HookahSwiftExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HookahSwiftExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27AB3F62613492900E3823E /* HookahSwiftExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HookahSwiftExampleTests.swift; sourceTree = "<group>"; };
+		E27AB3F82613492900E3823E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27AB3FD2613492900E3823E /* HookahSwiftExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HookahSwiftExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27AB4012613492900E3823E /* HookahSwiftExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HookahSwiftExampleUITests.swift; sourceTree = "<group>"; };
+		E27AB4032613492900E3823E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27AB41E26134B3100E3823E /* HookahSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HookahSwift.swift; sourceTree = "<group>"; };
+		E27AB41F26134B3100E3823E /* HookahSwift.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HookahSwift.xib; sourceTree = "<group>"; };
+		E27AB42926134C4700E3823E /* hookah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hookah.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,15 +113,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E27AB3DA2613492800E3823E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25EA2FF26134ECB00C26EC8 /* HookahSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27AB3EF2613492900E3823E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27AB3FA2613492900E3823E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E25EA2FE26134ECB00C26EC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E27AB3B32613480600E3823E = {
 			isa = PBXGroup;
 			children = (
 				E27AB3BF2613480600E3823E /* HookahSwift */,
 				E27AB3CA2613480600E3823E /* HookahSwiftTests */,
+				E27AB3DE2613492800E3823E /* HookahSwiftExample */,
+				E27AB3F52613492900E3823E /* HookahSwiftExampleTests */,
+				E27AB4002613492900E3823E /* HookahSwiftExampleUITests */,
 				E27AB3BE2613480600E3823E /* Products */,
+				E25EA2FE26134ECB00C26EC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +163,9 @@
 			children = (
 				E27AB3BD2613480600E3823E /* HookahSwift.framework */,
 				E27AB3C62613480600E3823E /* HookahSwiftTests.xctest */,
+				E27AB3DD2613492800E3823E /* HookahSwiftExample.app */,
+				E27AB3F22613492900E3823E /* HookahSwiftExampleTests.xctest */,
+				E27AB3FD2613492900E3823E /* HookahSwiftExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +173,8 @@
 		E27AB3BF2613480600E3823E /* HookahSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E27AB42826134B4600E3823E /* resoures */,
+				E27AB42726134B3500E3823E /* viewcontollers */,
 				E27AB3C02613480600E3823E /* HookahSwift.h */,
 				E27AB3C12613480600E3823E /* Info.plist */,
 			);
@@ -84,6 +188,55 @@
 				E27AB3CD2613480600E3823E /* Info.plist */,
 			);
 			path = HookahSwiftTests;
+			sourceTree = "<group>";
+		};
+		E27AB3DE2613492800E3823E /* HookahSwiftExample */ = {
+			isa = PBXGroup;
+			children = (
+				E27AB3DF2613492800E3823E /* AppDelegate.swift */,
+				E27AB3E12613492800E3823E /* SceneDelegate.swift */,
+				E27AB3E32613492800E3823E /* ViewController.swift */,
+				E27AB3E52613492800E3823E /* Main.storyboard */,
+				E27AB3E82613492900E3823E /* Assets.xcassets */,
+				E27AB3EA2613492900E3823E /* LaunchScreen.storyboard */,
+				E27AB3ED2613492900E3823E /* Info.plist */,
+			);
+			path = HookahSwiftExample;
+			sourceTree = "<group>";
+		};
+		E27AB3F52613492900E3823E /* HookahSwiftExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E27AB3F62613492900E3823E /* HookahSwiftExampleTests.swift */,
+				E27AB3F82613492900E3823E /* Info.plist */,
+			);
+			path = HookahSwiftExampleTests;
+			sourceTree = "<group>";
+		};
+		E27AB4002613492900E3823E /* HookahSwiftExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E27AB4012613492900E3823E /* HookahSwiftExampleUITests.swift */,
+				E27AB4032613492900E3823E /* Info.plist */,
+			);
+			path = HookahSwiftExampleUITests;
+			sourceTree = "<group>";
+		};
+		E27AB42726134B3500E3823E /* viewcontollers */ = {
+			isa = PBXGroup;
+			children = (
+				E27AB41E26134B3100E3823E /* HookahSwift.swift */,
+				E27AB41F26134B3100E3823E /* HookahSwift.xib */,
+			);
+			path = viewcontollers;
+			sourceTree = "<group>";
+		};
+		E27AB42826134B4600E3823E /* resoures */ = {
+			isa = PBXGroup;
+			children = (
+				E27AB42926134C4700E3823E /* hookah.mp4 */,
+			);
+			path = resoures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +289,61 @@
 			productReference = E27AB3C62613480600E3823E /* HookahSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E27AB3DC2613492800E3823E /* HookahSwiftExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27AB4042613492900E3823E /* Build configuration list for PBXNativeTarget "HookahSwiftExample" */;
+			buildPhases = (
+				E27AB3D92613492800E3823E /* Sources */,
+				E27AB3DA2613492800E3823E /* Frameworks */,
+				E27AB3DB2613492800E3823E /* Resources */,
+				E25EA30326134ECB00C26EC8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E25EA30226134ECB00C26EC8 /* PBXTargetDependency */,
+			);
+			name = HookahSwiftExample;
+			productName = HookahSwiftExample;
+			productReference = E27AB3DD2613492800E3823E /* HookahSwiftExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E27AB3F12613492900E3823E /* HookahSwiftExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27AB4072613492900E3823E /* Build configuration list for PBXNativeTarget "HookahSwiftExampleTests" */;
+			buildPhases = (
+				E27AB3EE2613492900E3823E /* Sources */,
+				E27AB3EF2613492900E3823E /* Frameworks */,
+				E27AB3F02613492900E3823E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E27AB3F42613492900E3823E /* PBXTargetDependency */,
+			);
+			name = HookahSwiftExampleTests;
+			productName = HookahSwiftExampleTests;
+			productReference = E27AB3F22613492900E3823E /* HookahSwiftExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E27AB3FC2613492900E3823E /* HookahSwiftExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27AB40A2613492900E3823E /* Build configuration list for PBXNativeTarget "HookahSwiftExampleUITests" */;
+			buildPhases = (
+				E27AB3F92613492900E3823E /* Sources */,
+				E27AB3FA2613492900E3823E /* Frameworks */,
+				E27AB3FB2613492900E3823E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E27AB3FF2613492900E3823E /* PBXTargetDependency */,
+			);
+			name = HookahSwiftExampleUITests;
+			productName = HookahSwiftExampleUITests;
+			productReference = E27AB3FD2613492900E3823E /* HookahSwiftExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,9 +355,21 @@
 				TargetAttributes = {
 					E27AB3BC2613480600E3823E = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					E27AB3C52613480600E3823E = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					E27AB3DC2613492800E3823E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					E27AB3F12613492900E3823E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E27AB3DC2613492800E3823E;
+					};
+					E27AB3FC2613492900E3823E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E27AB3DC2613492800E3823E;
 					};
 				};
 			};
@@ -168,6 +388,9 @@
 			targets = (
 				E27AB3BC2613480600E3823E /* HookahSwift */,
 				E27AB3C52613480600E3823E /* HookahSwiftTests */,
+				E27AB3DC2613492800E3823E /* HookahSwiftExample */,
+				E27AB3F12613492900E3823E /* HookahSwiftExampleTests */,
+				E27AB3FC2613492900E3823E /* HookahSwiftExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -177,10 +400,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27AB42126134B3100E3823E /* HookahSwift.xib in Resources */,
+				E27AB42A26134C4700E3823E /* hookah.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E27AB3C42613480600E3823E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27AB42B26134C4700E3823E /* hookah.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27AB3DB2613492800E3823E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27AB3EC2613492900E3823E /* LaunchScreen.storyboard in Resources */,
+				E27AB3E92613492900E3823E /* Assets.xcassets in Resources */,
+				E27AB3E72613492800E3823E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27AB3F02613492900E3823E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27AB3FB2613492900E3823E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,6 +444,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27AB42026134B3100E3823E /* HookahSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,15 +456,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E27AB3D92613492800E3823E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27AB3E42613492800E3823E /* ViewController.swift in Sources */,
+				E27AB3E02613492800E3823E /* AppDelegate.swift in Sources */,
+				E27AB3E22613492800E3823E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27AB3EE2613492900E3823E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27AB3F72613492900E3823E /* HookahSwiftExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27AB3F92613492900E3823E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27AB4022613492900E3823E /* HookahSwiftExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		E25EA30226134ECB00C26EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E27AB3BC2613480600E3823E /* HookahSwift */;
+			targetProxy = E25EA30126134ECB00C26EC8 /* PBXContainerItemProxy */;
+		};
 		E27AB3C92613480600E3823E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E27AB3BC2613480600E3823E /* HookahSwift */;
 			targetProxy = E27AB3C82613480600E3823E /* PBXContainerItemProxy */;
 		};
+		E27AB3F42613492900E3823E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E27AB3DC2613492800E3823E /* HookahSwiftExample */;
+			targetProxy = E27AB3F32613492900E3823E /* PBXContainerItemProxy */;
+		};
+		E27AB3FF2613492900E3823E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E27AB3DC2613492800E3823E /* HookahSwiftExample */;
+			targetProxy = E27AB3FE2613492900E3823E /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E27AB3E52613492800E3823E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E27AB3E62613492800E3823E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E27AB3EA2613492900E3823E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E27AB3EB2613492900E3823E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E27AB3CF2613480600E3823E /* Debug */ = {
@@ -341,6 +652,7 @@
 		E27AB3D22613480600E3823E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BPJGJZSY4D;
@@ -357,6 +669,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.HookahSwift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +678,7 @@
 		E27AB3D32613480600E3823E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BPJGJZSY4D;
@@ -389,6 +703,7 @@
 		E27AB3D52613480600E3823E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BPJGJZSY4D;
 				INFOPLIST_FILE = HookahSwiftTests/Info.plist;
@@ -407,6 +722,7 @@
 		E27AB3D62613480600E3823E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BPJGJZSY4D;
 				INFOPLIST_FILE = HookahSwiftTests/Info.plist;
@@ -419,6 +735,128 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E27AB4052613492900E3823E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BPJGJZSY4D;
+				INFOPLIST_FILE = HookahSwiftExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HookahSwiftExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E27AB4062613492900E3823E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BPJGJZSY4D;
+				INFOPLIST_FILE = HookahSwiftExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HookahSwiftExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E27AB4082613492900E3823E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BPJGJZSY4D;
+				INFOPLIST_FILE = HookahSwiftExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HookahSwiftExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HookahSwiftExample.app/HookahSwiftExample";
+			};
+			name = Debug;
+		};
+		E27AB4092613492900E3823E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BPJGJZSY4D;
+				INFOPLIST_FILE = HookahSwiftExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HookahSwiftExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HookahSwiftExample.app/HookahSwiftExample";
+			};
+			name = Release;
+		};
+		E27AB40B2613492900E3823E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BPJGJZSY4D;
+				INFOPLIST_FILE = HookahSwiftExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HookahSwiftExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HookahSwiftExample;
+			};
+			name = Debug;
+		};
+		E27AB40C2613492900E3823E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BPJGJZSY4D;
+				INFOPLIST_FILE = HookahSwiftExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HookahSwiftExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HookahSwiftExample;
 			};
 			name = Release;
 		};
@@ -448,6 +886,33 @@
 			buildConfigurations = (
 				E27AB3D52613480600E3823E /* Debug */,
 				E27AB3D62613480600E3823E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27AB4042613492900E3823E /* Build configuration list for PBXNativeTarget "HookahSwiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27AB4052613492900E3823E /* Debug */,
+				E27AB4062613492900E3823E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27AB4072613492900E3823E /* Build configuration list for PBXNativeTarget "HookahSwiftExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27AB4082613492900E3823E /* Debug */,
+				E27AB4092613492900E3823E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27AB40A2613492900E3823E /* Build configuration list for PBXNativeTarget "HookahSwiftExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27AB40B2613492900E3823E /* Debug */,
+				E27AB40C2613492900E3823E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
