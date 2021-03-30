@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HookahSwift"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A CocoaPods library written in Swift"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   This CocoaPods library shows you The Hookah.
                    DESC
 
-  spec.homepage     = "https://cocoapods.org/pods/HookahSwift"
+  spec.homepage     = "https://github.com/hussein321/HookahSwift"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
