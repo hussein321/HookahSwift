@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HookahSwift"
-  spec.version     = "1.0.1"
+  spec.version     = "1.0.2"
   spec.summary      = "A CocoaPods library written in Swift"
 
   # This description is used to generate tags and improve search results.
@@ -92,8 +92,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "HookahSwift", "HookahSwift/**/*.{h,m}"
-  spec.exclude_files = "HookahSwift/Exclude"
+  s.source_files = 'Source/*.swift'
+  #spec.exclude_files = "HookahSwift/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 

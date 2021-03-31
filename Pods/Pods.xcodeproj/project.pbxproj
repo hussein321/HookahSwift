@@ -1,0 +1,1214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3D79BBDC68F56174C67258B495A4A265 /* HookahSwift */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9ACBEA546EE5B2DFA367A1BD916DD649 /* Build configuration list for PBXAggregateTarget "HookahSwift" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = HookahSwift;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0BCAFC4439F6B9B4F0BFC37D534A3547 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		35B519BFD2967438C7C395D23E25DBFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		479CBE0B82964FE69BE91E58C4ABDD87 /* Pods-HookahSwiftExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 104387220BC05CCFA65353E145AF82C6 /* Pods-HookahSwiftExampleTests-dummy.m */; };
+		5D399AF0314EDC438B56FDA315A64280 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6673094BB5B67CA5DB696A3182D3C86A /* Pods-HookahSwiftExample-HookahSwiftExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D9F46DE1E8AC25828E05D84ED9A4C5C /* Pods-HookahSwiftExample-HookahSwiftExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B48ABCB7D83417AA5791ED2D0883D27 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A72C33D51ED19F3132F379893A7211 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests-dummy.m */; };
+		70429C49637CD776A1C99B83932C3B5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		88AD36369234901CBB35E140736B31B9 /* Pods-HookahSwiftExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5C18B2C77D3A3E4682898270150100 /* Pods-HookahSwiftExample-dummy.m */; };
+		9212024FE529A8CA435FFDF45B93F72C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A38CEC65F0C2C653C7D60AB7E5BA2CC2 /* Pods-HookahSwift-HookahSwiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 642B203093DD4C8311F14034053C18BA /* Pods-HookahSwift-HookahSwiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A97B963CFAE89CDB22C2AD1A93CBD3BE /* Pods-HookahSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A81EA1DD47FEBEE906857D714C1F7E /* Pods-HookahSwift-dummy.m */; };
+		C610584DB7614871C9E839FEA7CB3F3E /* Pods-HookahSwift-HookahSwiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D08DE7F96B7E9CD848C2B0AA90F10E /* Pods-HookahSwift-HookahSwiftTests-dummy.m */; };
+		DA06455CF6158A253CBF821476F80C6D /* Pods-HookahSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 375AEC93A195A939C6F29A857AADAF45 /* Pods-HookahSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F81F37165AA430CDE425EF58AD66AFEF /* Pods-HookahSwiftExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6324396924E948DF2E45C87C78334123 /* Pods-HookahSwiftExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF414724AA0D23066F5832FF0A4B33BA /* Pods-HookahSwiftExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2607878D067BC7F7F5EDF555FA35D4A /* Pods-HookahSwiftExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79759BE326AF8C11FF596417F849ABD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D79BBDC68F56174C67258B495A4A265;
+			remoteInfo = HookahSwift;
+		};
+		9DA994F0BCB9B15D40F9550BC87CD331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D4FCC2DB259937F9FC410297A402C35;
+			remoteInfo = "Pods-HookahSwiftExample";
+		};
+		BC6A50C78C97F96E907D159313AF8B7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D79BBDC68F56174C67258B495A4A265;
+			remoteInfo = HookahSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		069E67527ED6A1269325602EF3C32E15 /* Pods-HookahSwift-HookahSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookahSwift-HookahSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		08977C8AB8DE248BE5A615DD5046CED6 /* Pods-HookahSwiftExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookahSwiftExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		104387220BC05CCFA65353E145AF82C6 /* Pods-HookahSwiftExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HookahSwiftExampleTests-dummy.m"; sourceTree = "<group>"; };
+		16BF8BED7C07DED4DCDB604590AFC3C8 /* HookahSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HookahSwift.debug.xcconfig; sourceTree = "<group>"; };
+		21DE80A21744E8F6054E3580D535AE96 /* Pods-HookahSwiftExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HookahSwiftExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2622067C50144B6FA9412C3915D2AD39 /* Pods-HookahSwiftExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HookahSwiftExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29D08DE7F96B7E9CD848C2B0AA90F10E /* Pods-HookahSwift-HookahSwiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HookahSwift-HookahSwiftTests-dummy.m"; sourceTree = "<group>"; };
+		2DF54DBB12BB9DC93BD96CB032AED5FC /* Pods-HookahSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookahSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
+		31CF25616A46B9949734254FF0B60081 /* Pods-HookahSwift-HookahSwiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HookahSwift-HookahSwiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35A67DB7F616C53505CD4931DEB94EAD /* Pods-HookahSwiftExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HookahSwiftExample-Info.plist"; sourceTree = "<group>"; };
+		375AEC93A195A939C6F29A857AADAF45 /* Pods-HookahSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HookahSwift-umbrella.h"; sourceTree = "<group>"; };
+		37C529F7FC16E595CC1AE87303A8BDA5 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HookahSwiftExample-HookahSwiftExampleUITests-Info.plist"; sourceTree = "<group>"; };
+		52B36B44158586BE48B1782B252E9E7D /* Pods-HookahSwiftExample-HookahSwiftExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookahSwiftExample-HookahSwiftExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5C00DDF65E39ECB9539A44BF22CC98C4 /* Pods-HookahSwiftExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HookahSwiftExampleTests.modulemap"; sourceTree = "<group>"; };
+		5D658C177886E609414D5EE4D7576295 /* HookahSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HookahSwift.release.xcconfig; sourceTree = "<group>"; };
+		61DDDF1B07897DA88B5D6BFFFBE1A390 /* Pods_HookahSwiftExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HookahSwiftExampleTests.framework; path = "Pods-HookahSwiftExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6324396924E948DF2E45C87C78334123 /* Pods-HookahSwiftExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HookahSwiftExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		63C138AA8E88C817137301433E5D77CD /* Pods-HookahSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookahSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		642B203093DD4C8311F14034053C18BA /* Pods-HookahSwift-HookahSwiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HookahSwift-HookahSwiftTests-umbrella.h"; sourceTree = "<group>"; };
+		65BD106EE995889BA1D83E7AD2B16896 /* Pods-HookahSwift-HookahSwiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HookahSwift-HookahSwiftTests.modulemap"; sourceTree = "<group>"; };
+		66B240DBD3E786C7B0423721F6006566 /* Pods-HookahSwiftExampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HookahSwiftExampleTests-Info.plist"; sourceTree = "<group>"; };
+		6737055B3009848556463F387B9DD189 /* Pods-HookahSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HookahSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C4FB327FBC5282D22521C7828E3DCC2 /* HookahSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HookahSwift.h; path = HookahSwift/HookahSwift.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74DD35D7BBA5C546563F92F97FD58A13 /* Pods-HookahSwiftExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HookahSwiftExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		8758B1DCC1C758C239204828384FC688 /* HookahSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HookahSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		960B16213EA4AC1DA93DFF8653D42700 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9F46DE1E8AC25828E05D84ED9A4C5C /* Pods-HookahSwiftExample-HookahSwiftExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HookahSwiftExample-HookahSwiftExampleUITests-umbrella.h"; sourceTree = "<group>"; };
+		9DCC36C72CFC19F32AC514DBD80C0F7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A228B90E16E47DBDE71B121425882EB4 /* Pods_HookahSwiftExample_HookahSwiftExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HookahSwiftExample_HookahSwiftExampleUITests.framework; path = "Pods-HookahSwiftExample-HookahSwiftExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6309AFFAA07856188F94323B51B172F /* Pods-HookahSwift-HookahSwiftTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HookahSwift-HookahSwiftTests-Info.plist"; sourceTree = "<group>"; };
+		A926B0EA866E9523EFD3F54B9FF56797 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookahSwiftExample-HookahSwiftExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0A81EA1DD47FEBEE906857D714C1F7E /* Pods-HookahSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HookahSwift-dummy.m"; sourceTree = "<group>"; };
+		B2607878D067BC7F7F5EDF555FA35D4A /* Pods-HookahSwiftExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HookahSwiftExample-umbrella.h"; sourceTree = "<group>"; };
+		B9B40AD9A3CFE5FD105CD2EB548DA1A3 /* Pods-HookahSwift-HookahSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookahSwift-HookahSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEE4AF2AE9626A46D46FFF4F49BD7916 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HookahSwiftExample-HookahSwiftExampleUITests.modulemap"; sourceTree = "<group>"; };
+		C76D9211F06A073DCFC33DEE5CF489CA /* Pods-HookahSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HookahSwift.modulemap"; sourceTree = "<group>"; };
+		CB039DBB4053D5A27607B6A718B8E750 /* Pods_HookahSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HookahSwiftExample.framework; path = "Pods-HookahSwiftExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC07F09A91C984D4868A19355425AE1A /* Pods-HookahSwiftExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookahSwiftExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC52833FB7E448E4AFAC1BD3B892066E /* Pods-HookahSwift-HookahSwiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HookahSwift-HookahSwiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D12E82D5481D15ED583AB323B7D536DB /* Pods-HookahSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HookahSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA3DFF9E6A5CBD8A6255B4692B127EA0 /* Pods-HookahSwiftExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HookahSwiftExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD5C18B2C77D3A3E4682898270150100 /* Pods-HookahSwiftExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HookahSwiftExample-dummy.m"; sourceTree = "<group>"; };
+		E65A1322D012430C11AD4423DCA00970 /* Pods-HookahSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HookahSwift-Info.plist"; sourceTree = "<group>"; };
+		EB75EF5B7145A21736DFE896710B9A85 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HookahSwiftExample-HookahSwiftExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EDFCF1BCAA1C73D2501B846DC3837F6B /* Pods-HookahSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookahSwift.release.xcconfig"; sourceTree = "<group>"; };
+		F6781C98812801AF5F864FE47F7C1F61 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HookahSwiftExample-HookahSwiftExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6A72C33D51ED19F3132F379893A7211 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HookahSwiftExample-HookahSwiftExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		F7640F71CEE176FFE2C3A9A428FAC4A0 /* Pods_HookahSwift_HookahSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HookahSwift_HookahSwiftTests.framework; path = "Pods-HookahSwift-HookahSwiftTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FCFF11E2DC275E54E4FBF3697E1066 /* Pods-HookahSwiftExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HookahSwiftExample.modulemap"; sourceTree = "<group>"; };
+		FA932C34F53B21243BB403DB0A7689A6 /* Pods_HookahSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HookahSwift.framework; path = "Pods-HookahSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE81135FAACC3B895E8505BAB7925391 /* Pods-HookahSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HookahSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E1E2AF4DDC692C6DBD2397BFF854384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BCAFC4439F6B9B4F0BFC37D534A3547 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB62DE3EDA1DE68CDE917E101885F76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9212024FE529A8CA435FFDF45B93F72C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B70F54A3F9A2F741893C781ED3E152C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D399AF0314EDC438B56FDA315A64280 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DAE1F9C5AC071F84FD402F1950021B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B519BFD2967438C7C395D23E25DBFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE065CC66A96B0BF21DBA5AB4121453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70429C49637CD776A1C99B83932C3B5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DBCDF173A992A17D964310DDAD16A10 /* HookahSwift */ = {
+			isa = PBXGroup;
+			children = (
+				6C4FB327FBC5282D22521C7828E3DCC2 /* HookahSwift.h */,
+				B1D57CF6085A06659AF129F938C66390 /* Pod */,
+				89D1D2AD1D3348608823DDD57FFB0AE7 /* Support Files */,
+			);
+			name = HookahSwift;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2EC9ABC09247129F01F5BBBA344FE39E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DBCDF173A992A17D964310DDAD16A10 /* HookahSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3FBFF4B56DF4132FAF2F53FAA37356E8 /* Pods-HookahSwift-HookahSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				65BD106EE995889BA1D83E7AD2B16896 /* Pods-HookahSwift-HookahSwiftTests.modulemap */,
+				31CF25616A46B9949734254FF0B60081 /* Pods-HookahSwift-HookahSwiftTests-acknowledgements.markdown */,
+				CC52833FB7E448E4AFAC1BD3B892066E /* Pods-HookahSwift-HookahSwiftTests-acknowledgements.plist */,
+				29D08DE7F96B7E9CD848C2B0AA90F10E /* Pods-HookahSwift-HookahSwiftTests-dummy.m */,
+				A6309AFFAA07856188F94323B51B172F /* Pods-HookahSwift-HookahSwiftTests-Info.plist */,
+				642B203093DD4C8311F14034053C18BA /* Pods-HookahSwift-HookahSwiftTests-umbrella.h */,
+				B9B40AD9A3CFE5FD105CD2EB548DA1A3 /* Pods-HookahSwift-HookahSwiftTests.debug.xcconfig */,
+				069E67527ED6A1269325602EF3C32E15 /* Pods-HookahSwift-HookahSwiftTests.release.xcconfig */,
+			);
+			name = "Pods-HookahSwift-HookahSwiftTests";
+			path = "Target Support Files/Pods-HookahSwift-HookahSwiftTests";
+			sourceTree = "<group>";
+		};
+		528A142AAEF254C768C7BC2BC92213DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA932C34F53B21243BB403DB0A7689A6 /* Pods_HookahSwift.framework */,
+				F7640F71CEE176FFE2C3A9A428FAC4A0 /* Pods_HookahSwift_HookahSwiftTests.framework */,
+				CB039DBB4053D5A27607B6A718B8E750 /* Pods_HookahSwiftExample.framework */,
+				A228B90E16E47DBDE71B121425882EB4 /* Pods_HookahSwiftExample_HookahSwiftExampleUITests.framework */,
+				61DDDF1B07897DA88B5D6BFFFBE1A390 /* Pods_HookahSwiftExampleTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F7982841E7B73413E3BBD1C3E9F25D3 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEE4AF2AE9626A46D46FFF4F49BD7916 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests.modulemap */,
+				EB75EF5B7145A21736DFE896710B9A85 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests-acknowledgements.markdown */,
+				F6781C98812801AF5F864FE47F7C1F61 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests-acknowledgements.plist */,
+				F6A72C33D51ED19F3132F379893A7211 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests-dummy.m */,
+				37C529F7FC16E595CC1AE87303A8BDA5 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests-Info.plist */,
+				9D9F46DE1E8AC25828E05D84ED9A4C5C /* Pods-HookahSwiftExample-HookahSwiftExampleUITests-umbrella.h */,
+				A926B0EA866E9523EFD3F54B9FF56797 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests.debug.xcconfig */,
+				52B36B44158586BE48B1782B252E9E7D /* Pods-HookahSwiftExample-HookahSwiftExampleUITests.release.xcconfig */,
+			);
+			name = "Pods-HookahSwiftExample-HookahSwiftExampleUITests";
+			path = "Target Support Files/Pods-HookahSwiftExample-HookahSwiftExampleUITests";
+			sourceTree = "<group>";
+		};
+		817943A0596ED624DBC44F48FE25AF73 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0604600304C5D3A836DADB827FAE8B7 /* Pods-HookahSwift */,
+				3FBFF4B56DF4132FAF2F53FAA37356E8 /* Pods-HookahSwift-HookahSwiftTests */,
+				B24881D7EEF319C0CB26228C94301F57 /* Pods-HookahSwiftExample */,
+				6F7982841E7B73413E3BBD1C3E9F25D3 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests */,
+				9EBF2DA0B77EF877BEE3468FDA198D5C /* Pods-HookahSwiftExampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		89D1D2AD1D3348608823DDD57FFB0AE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16BF8BED7C07DED4DCDB604590AFC3C8 /* HookahSwift.debug.xcconfig */,
+				5D658C177886E609414D5EE4D7576295 /* HookahSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/HookahSwift";
+			sourceTree = "<group>";
+		};
+		9EBF2DA0B77EF877BEE3468FDA198D5C /* Pods-HookahSwiftExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C00DDF65E39ECB9539A44BF22CC98C4 /* Pods-HookahSwiftExampleTests.modulemap */,
+				2622067C50144B6FA9412C3915D2AD39 /* Pods-HookahSwiftExampleTests-acknowledgements.markdown */,
+				21DE80A21744E8F6054E3580D535AE96 /* Pods-HookahSwiftExampleTests-acknowledgements.plist */,
+				104387220BC05CCFA65353E145AF82C6 /* Pods-HookahSwiftExampleTests-dummy.m */,
+				66B240DBD3E786C7B0423721F6006566 /* Pods-HookahSwiftExampleTests-Info.plist */,
+				6324396924E948DF2E45C87C78334123 /* Pods-HookahSwiftExampleTests-umbrella.h */,
+				08977C8AB8DE248BE5A615DD5046CED6 /* Pods-HookahSwiftExampleTests.debug.xcconfig */,
+				CC07F09A91C984D4868A19355425AE1A /* Pods-HookahSwiftExampleTests.release.xcconfig */,
+			);
+			name = "Pods-HookahSwiftExampleTests";
+			path = "Target Support Files/Pods-HookahSwiftExampleTests";
+			sourceTree = "<group>";
+		};
+		A0604600304C5D3A836DADB827FAE8B7 /* Pods-HookahSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C76D9211F06A073DCFC33DEE5CF489CA /* Pods-HookahSwift.modulemap */,
+				6737055B3009848556463F387B9DD189 /* Pods-HookahSwift-acknowledgements.markdown */,
+				D12E82D5481D15ED583AB323B7D536DB /* Pods-HookahSwift-acknowledgements.plist */,
+				B0A81EA1DD47FEBEE906857D714C1F7E /* Pods-HookahSwift-dummy.m */,
+				E65A1322D012430C11AD4423DCA00970 /* Pods-HookahSwift-Info.plist */,
+				375AEC93A195A939C6F29A857AADAF45 /* Pods-HookahSwift-umbrella.h */,
+				63C138AA8E88C817137301433E5D77CD /* Pods-HookahSwift.debug.xcconfig */,
+				EDFCF1BCAA1C73D2501B846DC3837F6B /* Pods-HookahSwift.release.xcconfig */,
+			);
+			name = "Pods-HookahSwift";
+			path = "Target Support Files/Pods-HookahSwift";
+			sourceTree = "<group>";
+		};
+		B1D57CF6085A06659AF129F938C66390 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8758B1DCC1C758C239204828384FC688 /* HookahSwift.podspec */,
+				960B16213EA4AC1DA93DFF8653D42700 /* LICENSE */,
+				9DCC36C72CFC19F32AC514DBD80C0F7A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B24881D7EEF319C0CB26228C94301F57 /* Pods-HookahSwiftExample */ = {
+			isa = PBXGroup;
+			children = (
+				F9FCFF11E2DC275E54E4FBF3697E1066 /* Pods-HookahSwiftExample.modulemap */,
+				DA3DFF9E6A5CBD8A6255B4692B127EA0 /* Pods-HookahSwiftExample-acknowledgements.markdown */,
+				74DD35D7BBA5C546563F92F97FD58A13 /* Pods-HookahSwiftExample-acknowledgements.plist */,
+				DD5C18B2C77D3A3E4682898270150100 /* Pods-HookahSwiftExample-dummy.m */,
+				35A67DB7F616C53505CD4931DEB94EAD /* Pods-HookahSwiftExample-Info.plist */,
+				B2607878D067BC7F7F5EDF555FA35D4A /* Pods-HookahSwiftExample-umbrella.h */,
+				2DF54DBB12BB9DC93BD96CB032AED5FC /* Pods-HookahSwiftExample.debug.xcconfig */,
+				FE81135FAACC3B895E8505BAB7925391 /* Pods-HookahSwiftExample.release.xcconfig */,
+			);
+			name = "Pods-HookahSwiftExample";
+			path = "Target Support Files/Pods-HookahSwiftExample";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2EC9ABC09247129F01F5BBBA344FE39E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				528A142AAEF254C768C7BC2BC92213DB /* Products */,
+				817943A0596ED624DBC44F48FE25AF73 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C49B90001C6A3A93B7A41C5E76DA60C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF414724AA0D23066F5832FF0A4B33BA /* Pods-HookahSwiftExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EC4889B59C57D45B59C2CB1CF8AE19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6673094BB5B67CA5DB696A3182D3C86A /* Pods-HookahSwiftExample-HookahSwiftExampleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E47CE4D32235C3FDBC068FBEC4256D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38CEC65F0C2C653C7D60AB7E5BA2CC2 /* Pods-HookahSwift-HookahSwiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EF727EF3CB3F7105E92DC63855989F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA06455CF6158A253CBF821476F80C6D /* Pods-HookahSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8590E1BCE95755A4CA42A410FBAA80D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81F37165AA430CDE425EF58AD66AFEF /* Pods-HookahSwiftExampleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01880CCCB87968F5D21BAC95D2FA3148 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16EC8E62876132377EC39822392D7C17 /* Build configuration list for PBXNativeTarget "Pods-HookahSwiftExample-HookahSwiftExampleUITests" */;
+			buildPhases = (
+				42EC4889B59C57D45B59C2CB1CF8AE19 /* Headers */,
+				99F3FAD4172CA62BD4D919853940CBFB /* Sources */,
+				B70F54A3F9A2F741893C781ED3E152C9 /* Frameworks */,
+				F4BB5B7E31D1345D91BDBEC98B538CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC694956CB2D8E8000D10089B8EE547F /* PBXTargetDependency */,
+			);
+			name = "Pods-HookahSwiftExample-HookahSwiftExampleUITests";
+			productName = "Pods-HookahSwiftExample-HookahSwiftExampleUITests";
+			productReference = A228B90E16E47DBDE71B121425882EB4 /* Pods_HookahSwiftExample_HookahSwiftExampleUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		15D34BB8FF37015B7E52A0ED08D2B774 /* Pods-HookahSwiftExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E86B38DFF6EE88E56A8DD00565AAD7 /* Build configuration list for PBXNativeTarget "Pods-HookahSwiftExampleTests" */;
+			buildPhases = (
+				F8590E1BCE95755A4CA42A410FBAA80D /* Headers */,
+				E29B1675E389CB8D360254D1E6F5F2D6 /* Sources */,
+				5E1E2AF4DDC692C6DBD2397BFF854384 /* Frameworks */,
+				F6681CCE2EB1588C61F125DC89C39CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66BA7BC73C2C2559C72CB4EEEF3641CF /* PBXTargetDependency */,
+			);
+			name = "Pods-HookahSwiftExampleTests";
+			productName = "Pods-HookahSwiftExampleTests";
+			productReference = 61DDDF1B07897DA88B5D6BFFFBE1A390 /* Pods_HookahSwiftExampleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1D4FCC2DB259937F9FC410297A402C35 /* Pods-HookahSwiftExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1C768C652E47111A8744D86F49A467 /* Build configuration list for PBXNativeTarget "Pods-HookahSwiftExample" */;
+			buildPhases = (
+				1C49B90001C6A3A93B7A41C5E76DA60C /* Headers */,
+				63BA28078AFC2E17AA3ACB1276DC4C0E /* Sources */,
+				ECE065CC66A96B0BF21DBA5AB4121453 /* Frameworks */,
+				1ADFC6863480899BA96D37ADFCF9B168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5ADDA6120BC593FC554520179985BD9 /* PBXTargetDependency */,
+			);
+			name = "Pods-HookahSwiftExample";
+			productName = "Pods-HookahSwiftExample";
+			productReference = CB039DBB4053D5A27607B6A718B8E750 /* Pods_HookahSwiftExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1399E0D4E5200FD152297FC9545AE0C /* Pods-HookahSwift-HookahSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41BEEEEB8E6D6D15866269DAEA581C6C /* Build configuration list for PBXNativeTarget "Pods-HookahSwift-HookahSwiftTests" */;
+			buildPhases = (
+				8E47CE4D32235C3FDBC068FBEC4256D7 /* Headers */,
+				909E07C856DDC33C0495B5A64408FFE6 /* Sources */,
+				AAB62DE3EDA1DE68CDE917E101885F76 /* Frameworks */,
+				92215E26204C13F5187D06F6F7A4DE1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HookahSwift-HookahSwiftTests";
+			productName = "Pods-HookahSwift-HookahSwiftTests";
+			productReference = F7640F71CEE176FFE2C3A9A428FAC4A0 /* Pods_HookahSwift_HookahSwiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E428175AC1F0BC321ED54840454DB8E0 /* Pods-HookahSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A9EE128AAF9FAB2CA08B105429B6256 /* Build configuration list for PBXNativeTarget "Pods-HookahSwift" */;
+			buildPhases = (
+				9EF727EF3CB3F7105E92DC63855989F5 /* Headers */,
+				B3E0326E4D910CE19CD39E2F6011222E /* Sources */,
+				C5DAE1F9C5AC071F84FD402F1950021B /* Frameworks */,
+				92639104227404A417B5100BFA70696B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HookahSwift";
+			productName = "Pods-HookahSwift";
+			productReference = FA932C34F53B21243BB403DB0A7689A6 /* Pods_HookahSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 528A142AAEF254C768C7BC2BC92213DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D79BBDC68F56174C67258B495A4A265 /* HookahSwift */,
+				E428175AC1F0BC321ED54840454DB8E0 /* Pods-HookahSwift */,
+				A1399E0D4E5200FD152297FC9545AE0C /* Pods-HookahSwift-HookahSwiftTests */,
+				1D4FCC2DB259937F9FC410297A402C35 /* Pods-HookahSwiftExample */,
+				01880CCCB87968F5D21BAC95D2FA3148 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests */,
+				15D34BB8FF37015B7E52A0ED08D2B774 /* Pods-HookahSwiftExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ADFC6863480899BA96D37ADFCF9B168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92215E26204C13F5187D06F6F7A4DE1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92639104227404A417B5100BFA70696B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BB5B7E31D1345D91BDBEC98B538CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6681CCE2EB1588C61F125DC89C39CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63BA28078AFC2E17AA3ACB1276DC4C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AD36369234901CBB35E140736B31B9 /* Pods-HookahSwiftExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909E07C856DDC33C0495B5A64408FFE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C610584DB7614871C9E839FEA7CB3F3E /* Pods-HookahSwift-HookahSwiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F3FAD4172CA62BD4D919853940CBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B48ABCB7D83417AA5791ED2D0883D27 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E0326E4D910CE19CD39E2F6011222E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97B963CFAE89CDB22C2AD1A93CBD3BE /* Pods-HookahSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29B1675E389CB8D360254D1E6F5F2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479CBE0B82964FE69BE91E58C4ABDD87 /* Pods-HookahSwiftExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66BA7BC73C2C2559C72CB4EEEF3641CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HookahSwiftExample";
+			target = 1D4FCC2DB259937F9FC410297A402C35 /* Pods-HookahSwiftExample */;
+			targetProxy = 9DA994F0BCB9B15D40F9550BC87CD331 /* PBXContainerItemProxy */;
+		};
+		D5ADDA6120BC593FC554520179985BD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HookahSwift;
+			target = 3D79BBDC68F56174C67258B495A4A265 /* HookahSwift */;
+			targetProxy = BC6A50C78C97F96E907D159313AF8B7B /* PBXContainerItemProxy */;
+		};
+		FC694956CB2D8E8000D10089B8EE547F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HookahSwift;
+			target = 3D79BBDC68F56174C67258B495A4A265 /* HookahSwift */;
+			targetProxy = 79759BE326AF8C11FF596417F849ABD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FC2E7B4561772612305DD8315663F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C138AA8E88C817137301433E5D77CD /* Pods-HookahSwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HookahSwift/Pods-HookahSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HookahSwift/Pods-HookahSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B5271A8A63C82B08BDB8E8D03F575EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE81135FAACC3B895E8505BAB7925391 /* Pods-HookahSwiftExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HookahSwiftExample/Pods-HookahSwiftExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HookahSwiftExample/Pods-HookahSwiftExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		74C326FA007E98CE4E1DE770A3717485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B36B44158586BE48B1782B252E9E7D /* Pods-HookahSwiftExample-HookahSwiftExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HookahSwiftExample-HookahSwiftExampleUITests/Pods-HookahSwiftExample-HookahSwiftExampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HookahSwiftExample-HookahSwiftExampleUITests/Pods-HookahSwiftExample-HookahSwiftExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8C5DF4A714A91C74E6DB3A63095CC0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16BF8BED7C07DED4DCDB604590AFC3C8 /* HookahSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C6FF5E11C27DB871F6BAC835BDBFF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D658C177886E609414D5EE4D7576295 /* HookahSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A0B290C59CAEA8B4AF1DC81364FDB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9B40AD9A3CFE5FD105CD2EB548DA1A3 /* Pods-HookahSwift-HookahSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HookahSwift-HookahSwiftTests/Pods-HookahSwift-HookahSwiftTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HookahSwift-HookahSwiftTests/Pods-HookahSwift-HookahSwiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A10E6F028018FB429F2064B0C36E5878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 069E67527ED6A1269325602EF3C32E15 /* Pods-HookahSwift-HookahSwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HookahSwift-HookahSwiftTests/Pods-HookahSwift-HookahSwiftTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HookahSwift-HookahSwiftTests/Pods-HookahSwift-HookahSwiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8A8F2786E0722AB23C92D003C3D6F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08977C8AB8DE248BE5A615DD5046CED6 /* Pods-HookahSwiftExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HookahSwiftExampleTests/Pods-HookahSwiftExampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HookahSwiftExampleTests/Pods-HookahSwiftExampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E09CE92C3578DDC3B5BEC87764BE2A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDFCF1BCAA1C73D2501B846DC3837F6B /* Pods-HookahSwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HookahSwift/Pods-HookahSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HookahSwift/Pods-HookahSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA44EEC1765100B4CF3E597ADEA48FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A926B0EA866E9523EFD3F54B9FF56797 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HookahSwiftExample-HookahSwiftExampleUITests/Pods-HookahSwiftExample-HookahSwiftExampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HookahSwiftExample-HookahSwiftExampleUITests/Pods-HookahSwiftExample-HookahSwiftExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F03CD8E8D87483F115394C502A962D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC07F09A91C984D4868A19355425AE1A /* Pods-HookahSwiftExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HookahSwiftExampleTests/Pods-HookahSwiftExampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HookahSwiftExampleTests/Pods-HookahSwiftExampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F128218A027B68EBAF96056E9BCDF311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF54DBB12BB9DC93BD96CB032AED5FC /* Pods-HookahSwiftExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HookahSwiftExample/Pods-HookahSwiftExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HookahSwiftExample/Pods-HookahSwiftExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16EC8E62876132377EC39822392D7C17 /* Build configuration list for PBXNativeTarget "Pods-HookahSwiftExample-HookahSwiftExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA44EEC1765100B4CF3E597ADEA48FD0 /* Debug */,
+				74C326FA007E98CE4E1DE770A3717485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A9EE128AAF9FAB2CA08B105429B6256 /* Build configuration list for PBXNativeTarget "Pods-HookahSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC2E7B4561772612305DD8315663F71 /* Debug */,
+				E09CE92C3578DDC3B5BEC87764BE2A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41BEEEEB8E6D6D15866269DAEA581C6C /* Build configuration list for PBXNativeTarget "Pods-HookahSwift-HookahSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0B290C59CAEA8B4AF1DC81364FDB4A /* Debug */,
+				A10E6F028018FB429F2064B0C36E5878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ACBEA546EE5B2DFA367A1BD916DD649 /* Build configuration list for PBXAggregateTarget "HookahSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5DF4A714A91C74E6DB3A63095CC0D5 /* Debug */,
+				8C6FF5E11C27DB871F6BAC835BDBFF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E86B38DFF6EE88E56A8DD00565AAD7 /* Build configuration list for PBXNativeTarget "Pods-HookahSwiftExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A8F2786E0722AB23C92D003C3D6F01 /* Debug */,
+				F03CD8E8D87483F115394C502A962D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB1C768C652E47111A8744D86F49A467 /* Build configuration list for PBXNativeTarget "Pods-HookahSwiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F128218A027B68EBAF96056E9BCDF311 /* Debug */,
+				5B5271A8A63C82B08BDB8E8D03F575EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BB25AFF37B6D32D5B3ECCA5 /* Pods_HookahSwiftExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83E5C6E39069B4A6C6B1F22 /* Pods_HookahSwiftExample.framework */; };
+		3B6627EF0EAC12F849DCA90A /* Pods_HookahSwift_HookahSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2407DF9623B4C54B0C5AB6 /* Pods_HookahSwift_HookahSwiftTests.framework */; };
+		7852342E942A0BC24F8533A7 /* Pods_HookahSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52ED97C0E35FF4156E5BF91 /* Pods_HookahSwift.framework */; };
+		84A0B2C703484C2C802DB86C /* Pods_HookahSwiftExample_HookahSwiftExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2465DF0BAAD5ED88526FF420 /* Pods_HookahSwiftExample_HookahSwiftExampleUITests.framework */; };
 		E25EA2FF26134ECB00C26EC8 /* HookahSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27AB3BD2613480600E3823E /* HookahSwift.framework */; };
 		E25EA30026134ECB00C26EC8 /* HookahSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E27AB3BD2613480600E3823E /* HookahSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E27AB3C72613480600E3823E /* HookahSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27AB3BD2613480600E3823E /* HookahSwift.framework */; };
@@ -24,6 +28,7 @@
 		E27AB42126134B3100E3823E /* HookahSwift.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27AB41F26134B3100E3823E /* HookahSwift.xib */; };
 		E27AB42A26134C4700E3823E /* hookah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E27AB42926134C4700E3823E /* hookah.mp4 */; };
 		E27AB42B26134C4700E3823E /* hookah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E27AB42926134C4700E3823E /* hookah.mp4 */; };
+		F71C71A70BBBF06B3C87AC4E /* Pods_HookahSwiftExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54912A8B9D8884E7A0ADE36B /* Pods_HookahSwiftExampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +77,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		05798FE03D424A9AF7784C93 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookahSwiftExample-HookahSwiftExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-HookahSwiftExample-HookahSwiftExampleUITests/Pods-HookahSwiftExample-HookahSwiftExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		08BCB16C6EFC533061ABC505 /* Pods-HookahSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookahSwiftExample.debug.xcconfig"; path = "Target Support Files/Pods-HookahSwiftExample/Pods-HookahSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
+		2465DF0BAAD5ED88526FF420 /* Pods_HookahSwiftExample_HookahSwiftExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HookahSwiftExample_HookahSwiftExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2407DF9623B4C54B0C5AB6 /* Pods_HookahSwift_HookahSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HookahSwift_HookahSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54912A8B9D8884E7A0ADE36B /* Pods_HookahSwiftExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HookahSwiftExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F481DF07D5C2C2B999B1B1D /* Pods-HookahSwift-HookahSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookahSwift-HookahSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-HookahSwift-HookahSwiftTests/Pods-HookahSwift-HookahSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83387B38FBB4CE08EDEC7FB5 /* Pods-HookahSwiftExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookahSwiftExampleTests.release.xcconfig"; path = "Target Support Files/Pods-HookahSwiftExampleTests/Pods-HookahSwiftExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		848607D43EDC50ECFB541433 /* Pods-HookahSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookahSwiftExample.release.xcconfig"; path = "Target Support Files/Pods-HookahSwiftExample/Pods-HookahSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+		865F3EA2A3CBD3541236A649 /* Pods-HookahSwiftExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookahSwiftExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-HookahSwiftExampleTests/Pods-HookahSwiftExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92AECB247F7B021409DFB160 /* Pods-HookahSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookahSwift.debug.xcconfig"; path = "Target Support Files/Pods-HookahSwift/Pods-HookahSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		A52ED97C0E35FF4156E5BF91 /* Pods_HookahSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HookahSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83E5C6E39069B4A6C6B1F22 /* Pods_HookahSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HookahSwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27AB3BD2613480600E3823E /* HookahSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HookahSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27AB3C02613480600E3823E /* HookahSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookahSwift.h; sourceTree = "<group>"; };
 		E27AB3C12613480600E3823E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +112,9 @@
 		E27AB41E26134B3100E3823E /* HookahSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HookahSwift.swift; sourceTree = "<group>"; };
 		E27AB41F26134B3100E3823E /* HookahSwift.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HookahSwift.xib; sourceTree = "<group>"; };
 		E27AB42926134C4700E3823E /* hookah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hookah.mp4; sourceTree = "<group>"; };
+		E52BDF06143E2B7BA18215B4 /* Pods-HookahSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookahSwift.release.xcconfig"; path = "Target Support Files/Pods-HookahSwift/Pods-HookahSwift.release.xcconfig"; sourceTree = "<group>"; };
+		EF7039D68C4D3A5397BC3FFA /* Pods-HookahSwiftExample-HookahSwiftExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookahSwiftExample-HookahSwiftExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-HookahSwiftExample-HookahSwiftExampleUITests/Pods-HookahSwiftExample-HookahSwiftExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC834CFE1558CE12303D310E /* Pods-HookahSwift-HookahSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HookahSwift-HookahSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-HookahSwift-HookahSwiftTests/Pods-HookahSwift-HookahSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7852342E942A0BC24F8533A7 /* Pods_HookahSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E27AB3C72613480600E3823E /* HookahSwift.framework in Frameworks */,
+				3B6627EF0EAC12F849DCA90A /* Pods_HookahSwift_HookahSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E25EA2FF26134ECB00C26EC8 /* HookahSwift.framework in Frameworks */,
+				1BB25AFF37B6D32D5B3ECCA5 /* Pods_HookahSwiftExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71C71A70BBBF06B3C87AC4E /* Pods_HookahSwiftExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,17 +156,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A0B2C703484C2C802DB86C /* Pods_HookahSwiftExample_HookahSwiftExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB74729B314FB580554761F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92AECB247F7B021409DFB160 /* Pods-HookahSwift.debug.xcconfig */,
+				E52BDF06143E2B7BA18215B4 /* Pods-HookahSwift.release.xcconfig */,
+				6F481DF07D5C2C2B999B1B1D /* Pods-HookahSwift-HookahSwiftTests.debug.xcconfig */,
+				FC834CFE1558CE12303D310E /* Pods-HookahSwift-HookahSwiftTests.release.xcconfig */,
+				08BCB16C6EFC533061ABC505 /* Pods-HookahSwiftExample.debug.xcconfig */,
+				848607D43EDC50ECFB541433 /* Pods-HookahSwiftExample.release.xcconfig */,
+				EF7039D68C4D3A5397BC3FFA /* Pods-HookahSwiftExample-HookahSwiftExampleUITests.debug.xcconfig */,
+				05798FE03D424A9AF7784C93 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests.release.xcconfig */,
+				865F3EA2A3CBD3541236A649 /* Pods-HookahSwiftExampleTests.debug.xcconfig */,
+				83387B38FBB4CE08EDEC7FB5 /* Pods-HookahSwiftExampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E25EA2FE26134ECB00C26EC8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A52ED97C0E35FF4156E5BF91 /* Pods_HookahSwift.framework */,
+				4C2407DF9623B4C54B0C5AB6 /* Pods_HookahSwift_HookahSwiftTests.framework */,
+				D83E5C6E39069B4A6C6B1F22 /* Pods_HookahSwiftExample.framework */,
+				2465DF0BAAD5ED88526FF420 /* Pods_HookahSwiftExample_HookahSwiftExampleUITests.framework */,
+				54912A8B9D8884E7A0ADE36B /* Pods_HookahSwiftExampleTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E25EA34026145F2C00C26EC8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E27AB42726134B3500E3823E /* viewcontollers */,
+				E27AB42826134B4600E3823E /* resoures */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		E27AB3B32613480600E3823E = {
@@ -155,6 +211,7 @@
 				E27AB4002613492900E3823E /* HookahSwiftExampleUITests */,
 				E27AB3BE2613480600E3823E /* Products */,
 				E25EA2FE26134ECB00C26EC8 /* Frameworks */,
+				AB74729B314FB580554761F2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,8 +230,7 @@
 		E27AB3BF2613480600E3823E /* HookahSwift */ = {
 			isa = PBXGroup;
 			children = (
-				E27AB42826134B4600E3823E /* resoures */,
-				E27AB42726134B3500E3823E /* viewcontollers */,
+				E25EA34026145F2C00C26EC8 /* Source */,
 				E27AB3C02613480600E3823E /* HookahSwift.h */,
 				E27AB3C12613480600E3823E /* Info.plist */,
 			);
@@ -257,6 +313,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E27AB3D12613480600E3823E /* Build configuration list for PBXNativeTarget "HookahSwift" */;
 			buildPhases = (
+				9EB40ED42E49C282A1F90DE0 /* [CP] Check Pods Manifest.lock */,
 				E27AB3B82613480600E3823E /* Headers */,
 				E27AB3B92613480600E3823E /* Sources */,
 				E27AB3BA2613480600E3823E /* Frameworks */,
@@ -275,6 +332,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E27AB3D42613480600E3823E /* Build configuration list for PBXNativeTarget "HookahSwiftTests" */;
 			buildPhases = (
+				B08691806847FF6EC20FDA6E /* [CP] Check Pods Manifest.lock */,
 				E27AB3C22613480600E3823E /* Sources */,
 				E27AB3C32613480600E3823E /* Frameworks */,
 				E27AB3C42613480600E3823E /* Resources */,
@@ -293,6 +351,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E27AB4042613492900E3823E /* Build configuration list for PBXNativeTarget "HookahSwiftExample" */;
 			buildPhases = (
+				3DB877108B055B02B614FB00 /* [CP] Check Pods Manifest.lock */,
 				E27AB3D92613492800E3823E /* Sources */,
 				E27AB3DA2613492800E3823E /* Frameworks */,
 				E27AB3DB2613492800E3823E /* Resources */,
@@ -312,6 +371,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E27AB4072613492900E3823E /* Build configuration list for PBXNativeTarget "HookahSwiftExampleTests" */;
 			buildPhases = (
+				2587DAF4DC64E11866851E60 /* [CP] Check Pods Manifest.lock */,
 				E27AB3EE2613492900E3823E /* Sources */,
 				E27AB3EF2613492900E3823E /* Frameworks */,
 				E27AB3F02613492900E3823E /* Resources */,
@@ -330,6 +390,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E27AB40A2613492900E3823E /* Build configuration list for PBXNativeTarget "HookahSwiftExampleUITests" */;
 			buildPhases = (
+				F88C00CE4F6FC7C540A24D5E /* [CP] Check Pods Manifest.lock */,
 				E27AB3F92613492900E3823E /* Sources */,
 				E27AB3FA2613492900E3823E /* Frameworks */,
 				E27AB3FB2613492900E3823E /* Resources */,
@@ -438,6 +499,119 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2587DAF4DC64E11866851E60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HookahSwiftExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DB877108B055B02B614FB00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HookahSwiftExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EB40ED42E49C282A1F90DE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HookahSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B08691806847FF6EC20FDA6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HookahSwift-HookahSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F88C00CE4F6FC7C540A24D5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HookahSwiftExample-HookahSwiftExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E27AB3B92613480600E3823E /* Sources */ = {
@@ -651,6 +825,7 @@
 		};
 		E27AB3D22613480600E3823E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92AECB247F7B021409DFB160 /* Pods-HookahSwift.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -677,6 +852,7 @@
 		};
 		E27AB3D32613480600E3823E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E52BDF06143E2B7BA18215B4 /* Pods-HookahSwift.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -702,6 +878,7 @@
 		};
 		E27AB3D52613480600E3823E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F481DF07D5C2C2B999B1B1D /* Pods-HookahSwift-HookahSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -721,6 +898,7 @@
 		};
 		E27AB3D62613480600E3823E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC834CFE1558CE12303D310E /* Pods-HookahSwift-HookahSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -740,6 +918,7 @@
 		};
 		E27AB4052613492900E3823E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08BCB16C6EFC533061ABC505 /* Pods-HookahSwiftExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -759,6 +938,7 @@
 		};
 		E27AB4062613492900E3823E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848607D43EDC50ECFB541433 /* Pods-HookahSwiftExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -778,6 +958,7 @@
 		};
 		E27AB4082613492900E3823E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 865F3EA2A3CBD3541236A649 /* Pods-HookahSwiftExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -800,6 +981,7 @@
 		};
 		E27AB4092613492900E3823E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83387B38FBB4CE08EDEC7FB5 /* Pods-HookahSwiftExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -822,6 +1004,7 @@
 		};
 		E27AB40B2613492900E3823E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7039D68C4D3A5397BC3FFA /* Pods-HookahSwiftExample-HookahSwiftExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -842,6 +1025,7 @@
 		};
 		E27AB40C2613492900E3823E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05798FE03D424A9AF7784C93 /* Pods-HookahSwiftExample-HookahSwiftExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

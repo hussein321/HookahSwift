@@ -1,0 +1,16 @@
+PODS:
+  - HookahSwift (1.0.1)
+
+DEPENDENCIES:
+  - HookahSwift (from `../HookahSwift`)
+
+EXTERNAL SOURCES:
+  HookahSwift:
+    :path: "../HookahSwift"
+
+SPEC CHECKSUMS:
+  HookahSwift: 0df6e76625df6dce0323b3df744b6c378e0bce41
+
+PODFILE CHECKSUM: 83ee142a3f31b08575aac87ea197ac9e2002c149
+
+COCOAPODS: 1.10.1

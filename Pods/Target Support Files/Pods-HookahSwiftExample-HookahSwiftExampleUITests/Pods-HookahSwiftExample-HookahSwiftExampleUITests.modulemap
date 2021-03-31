@@ -1,0 +1,6 @@
+framework module Pods_HookahSwiftExample_HookahSwiftExampleUITests {
+  umbrella header "Pods-HookahSwiftExample-HookahSwiftExampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

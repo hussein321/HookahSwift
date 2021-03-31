@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_HookahSwiftExample_HookahSwiftExampleUITests : NSObject
+@end
+@implementation PodsDummy_Pods_HookahSwiftExample_HookahSwiftExampleUITests
+@end
